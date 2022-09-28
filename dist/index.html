@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow, noodp">
+	<meta name="googlebot" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	
+	<!--favicon-->
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<title>Инженер-технолог машинного производства</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	
+	<div class="page">
+		<header class="header">
+			<div class="container">
+				<div class="header-wrapp">
+					<ul class="header-list">
+						<li class="header-list-inner">
+							<a href="#" class="header-list-link">
+								<img width="32" height="32" src="./img/header/logo.svg" alt="" class="header-list-img">
+							</a>
+						</li>
+						<li class="header-list-inner">
+							<a href="#" class="header-list-link">
+								<img width="28" height="32" src="./img/header/logo-2.svg" alt="" class="header-list-img">
+							</a>
+						</li>
+						<li class="header-list-inner">
+							<a href="#" class="header-list-link">
+								<img src="./img/header/prof.svg" alt="" class="header-list-img">
+							</a>
+						</li>
+						<li class="header-list-inner">
+							Инженер-технолог машинного производства
+		
+						</li>
+					</ul>
+					<div class="header-col">
+						<ul class="header-nav">
+							<li class="header-nav-inner">
+								<a href="#" class="header-nav-link">
+									Теория
+								</a>
+		
+							</li>
+							<li class="header-nav-inner">
+								<a href="#" class="header-nav-link">
+									Задание
+								</a>
+		
+							</li>
+							<li class="header-nav-inner --active">
+								Практика
+							</li>
+							<li class="header-nav-inner">
+								Финал
+							</li>
+						</ul>
+						<div class="header-timer">
+							Осталось
+							<span class="header-timer-container">
+								<span class="header-time-box --minut">20</span>:
+								<span class="header-time-box --second">00</span></span>
+							<div class="window header-timer-window">
+		
+								<div class="window-coll">
+									<span class="window-title">
+										Это таймер.
+									</span>
+									Когда время закончится,<br>
+									вы сможете завершить прохождение профпробы
+								</div>
+							</div>
+						</div>
+						<a href="#popup" class="header-btn open-modal">
+							Справочник
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+	
+	</div>
+	<div class="main-error-box">
+	
+	</div>
+	<div id="popup" class="popup mfp-hide">
+	
+	</div>
+	<div id="field-window" class="modal">
+		<div class="modal-coll">
+			<h3 class="modal-title">
+				Отлично!
+			</h3>
+			<p class="modal-text">
+				Поля определены, теперь приступим к выбору <br> озимой пшеницы.
+			</p>
+		</div>
+		<button class="modal-btn" data-open="sort-good-block">
+			Открыть каталог сортов
+		</button>
+	</div>
+	
+	<div id="rescue-good-wind" class="modal sort-modal">
+		<div class="modal-coll">
+			<h3 class="modal-title">
+				Вы спасли урожай от гибели!
+			</h3>
+			<p class="modal-text">
+				Из-за болезни пострадала лишь незначительная часть.
+			</p>
+		</div>
+		<button class="modal-btn" data-open="cleaning-block">
+			Далее
+		</button>
+	</div>
+	
+	<div class="modal finish-modal">
+		<div class="modal-coll">
+			<h3 class="modal-title">
+				Поздравляем!
+			</h3>
+			<p class="modal-text">
+				Ваше хозяйство проделало большую работу. Вы своевременно <br> засеяли поля прошлой осенью, внесли
+				достаточное
+				количество <br> удобрений и провели необходимые мероприятия по уходу. Браво!
+			</p>
+		</div>
+		<a href="#" class="modal-btn" data-open="cleaning-block">
+			Перейти к финалу
+		</a>
+	</div>
+	
+	<div id="sort-good" class="modal rescue-modal ">
+		<div class="modal-coll">
+			<h3 class="modal-title">
+				Отлично!
+			</h3>
+			<p class="modal-text">
+				Вы выбрали подходящий сорт пшеницы.<br>
+				Теперь необходимо произвести расчёты для посева.
+			</p>
+		</div>
+		<button class="modal-btn" data-open="norms-block">
+			Далее
+		</button>
+	</div>
+	
+	<div id="dates-windows" class="windows-back">
+		<div class="windows-wrapp">
+			<div class="windows-coll">
+				<h3 class="windows-title">
+					Вы посеяли пшеницу!
+				</h3>
+				<p class="windows-text">
+					Комбайн с сеялкой проехал всё поле по запрограммированной траектории и посадил каждое семечко на
+					идеальные глубину и расстояние друг от друга.
+				</p>
+				<p class="windows-text">
+					К зиме пшеница успела прорасти — всходы получились дружными и здоровыми. Индекс NDVI, полученный с
+					помощью дрона и спутника, также показал отличные результаты.
+				</p>
+				<p class="windows-text">
+					В начале весны вы несколько раз внесли удобрения в необходимые фазы роста. Пока всё идёт хорошо!
+				</p>
+				<button class="button windows-btn" data-open="rescue-block">
+					Продолжить
+				</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/app.min.js"></script>
+</body>
+
+
+</html>
